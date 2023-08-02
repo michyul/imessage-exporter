@@ -906,7 +906,7 @@ impl<'a> HTML<'a> {
                 } else {
                     self.config.options.custom_name.unwrap_or("you")
                 };
-                date.push_str(&format!(" (Read by {who} after {time})"));
+                //date.push_str(&format!(" (Read by {who} after {time})"));
             }
         }
         date
