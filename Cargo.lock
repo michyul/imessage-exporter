@@ -338,7 +338,19 @@ dependencies = [
 
 [[package]]
 name = "imessage-database"
-version = "0.0.0"
+version = "1.5.0"
+dependencies = [
+ "chrono",
+ "plist",
+ "rusqlite",
+ "sha1",
+]
+
+[[package]]
+name = "imessage-database"
+version = "1.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6fa701f09644e8482f14480780e0a137bca5a4d2d3a40ecf7f4692eeb251569"
 dependencies = [
  "chrono",
  "plist",
@@ -348,11 +360,11 @@ dependencies = [
 
 [[package]]
 name = "imessage-exporter"
-version = "0.0.0"
+version = "1.5.0"
 dependencies = [
  "clap",
  "filetime",
- "imessage-database",
+ "imessage-database 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "indicatif",
  "rusqlite",
  "uuid",

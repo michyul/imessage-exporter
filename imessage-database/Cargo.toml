@@ -7,7 +7,7 @@ exclude = [".github", "docs", "build.sh"]
 license = "GPL-3.0-or-later"
 name = "imessage-database"
 repository = "https://github.com/ReagentX/imessage-exporter"
-version = "0.0.0"
+version = "1.5.0"
 
 [dependencies]
 chrono = "0.4.26"
